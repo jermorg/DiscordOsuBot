@@ -1,0 +1,11 @@
+{
+  "discordToken": "your-discord-bot-token",
+  "login": "your-osu-username",
+  "password": "your-osu-IRC-pasword",
+  "apiKey": "your-osu-api-key",
+  "lobbyPassword": "",
+  "commandPrefix": "$",
+  "teamMode": 0,
+  "winCondition": 0,
+  "afkTimer": 180,
+}
