@@ -57,7 +57,7 @@ bot.on("ready", async () => {
       "Accept": "application/json",
       "Content-Type": "application/x-www-form-urlencoded",
     },
-    body: "client_id=28778&client_secret=BckRdohijKKZLG01Jsp5bC27KSG73QI2SwkZn4Wh&grant_type=client_credentials&scope=public"
+    body: "client_id={your-osu-client-id}&client_secret={your-osu-client-secret}&grant_type=client_credentials&scope=public"
   }).then(res => res.json())
   .then(async data => {
     tokenOsu = data.access_token
