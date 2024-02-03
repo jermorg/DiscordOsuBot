@@ -1,6 +1,10 @@
 # DiscordOsuBot
 Discord bot that can view a profile in osu! and has the ability to create lobbyes 
 ## Usage
+### npm moduls
+```npm i discord.js bancho.js @napi-rs/canvas```
+
+### Edit
 In ``config.json`` change the following values
 ```JSON
 {
